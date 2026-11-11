@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nandini Giri Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+.training-card {
+  background: #16213e;
+  border-radius: 12px;
+  border-top: 3px solid #ffbd39;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.training-card:hover {
+  transform: translateY(-5px);
+}
+
+.training-card h5 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.training-card p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.training-tag {
+  display: inline-block;
+  background: rgba(255, 189, 57, 0.15);
+  color: #ffbd39;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 3px 2px;
+}
+
+.project-badge {
+  display: inline-block;
+  background: rgba(255, 189, 57, 0.15);
+  color: #ffbd39;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  margin: 2px 2px;
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Nandini Giri</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#training-section" class="nav-link"><span>Training</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#selflearn-section" class="nav-link"><span>Self Learning</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url();">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Nandini Giri </span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Engineer  ',
+						'QA Engineer  ',
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>Associate Technical Consultant (QA)</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri" class="btn btn-primary py-3 px-4">My Works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/profile.jpg" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Nandini Giri </span></p>
+										<p><span class="title-s">Job Role: </span> <span>Associate Technical Consultant (QA)</span></p>
+										
+										<p><span class="title-s">Address: </span> <span>Nagpur, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>SQL</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>PYTHON</span> <span class="pull-right">60%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Data Visualization</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Snowflake</span> <span class="pull-right">50%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Machine Learning</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Manual Testing</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Selenium WebDriver</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Playwright</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>API Testing (REST Assured)</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Test Case Design</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>I’m Nandini Giri, an Associate Technical Consultant (QA) at Perficient with a strong foundation in both quality assurance and data analysis. I specialize in manual and automated testing using Selenium, Playwright, REST Assured, and TestNG, with hands-on experience in test case design, defect lifecycle management, API testing, and cross-browser automation.
+
+I have a keen interest in working with data — building interactive dashboards in Power BI, performing exploratory analysis with Python, and using SQL to uncover insights from real-world datasets. I believe the combination of QA rigor and data-driven thinking leads to building better, more reliable software.
+
+My recent work at Perficient’s GGTP program includes building full-stack test automation frameworks, designing 150+ test cases for e-commerce applications, and creating data-driven testing solutions. With a B.E. in CSE (AIML), I also have a strong interest in Generative AI and Agentic AI — I’ve built a Paper AI application using Neo4j and Agentic AI frameworks for research paper analysis. I’m passionate about ensuring software quality while leveraging data and AI to make smarter testing and business decisions.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>QA Engineering</span></li>
+									
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering in CSE(AIML)</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi,Marathi</span></li>
+									<li class="d-flex"><span>QA Tools:</span> <span>Selenium, Playwright, Cypress, REST Assured, TestNG, Maven, Jira, Postman, JMeter, Appium</span></li>
+									<li class="d-flex"><span>Testing:</span> <span>Manual Testing, Functional, Regression, Smoke, API, Performance, Mobile, Automation</span></li>
+									<li class="d-flex"><span>Techniques:</span> <span>BVA, Equivalence Partitioning, Decision Table, RTM, Data Driven, POM</span></li>
+									<li class="d-flex"><span>Programming:</span> <span>Java, Python, TypeScript, HTML, CSS, JavaScript</span></li>
+									<li class="d-flex"><span>DevOps:</span> <span>Git, GitHub, CI/CD, GCP, Maven, Database Testing</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI &amp; Tableau</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Excel, Salesforce, Matplotlib, Seaborn, Pandas, Numpy, Snowflake, ETL, Agile Scrum</span></li>
+									<li class="d-flex"><span>AI Interest:</span> <span>AIML, Generative AI, Agentic AI, Prompt Engineering</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Traveling, Dance, Acting</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="9">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri" class="btn btn-primary py-3 px-3">GitHub</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Associate Technical Consultant (QA) with expertise in manual and automated testing, test framework development, and a strong interest in working with data and AI-driven solutions.</p>
+          </div>
+        </div>
+
+		
+		
+		
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2023-2026</span>
+    					<h2>Bachelor of Engineering</h2>
+    					<span class="position">Shri Ramdeobaba College Of Engineering And management.</span>
+    					<p class="mt-4">Grade: First class distinction.</p>
+						<p class="mt-4">CGPA : 9.14</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2020-2023</span>
+    					<h2>Diploma</h2>
+    					<span class="position">Government Polytechnic Nagpur</span>
+    					<p class="mt-4">Grade: First class distinction.</p>
+						<p class="mt-4">Percentage : 89.65</p>
+    				</div>
+				</div>
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="Nandini_Giri_AssociateTechnicalConsultant_Sep2026.docx" class="btn btn-primary py-4 px-5" download>Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+	<section class="ftco-section ftco-no-pb" id="training-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Training</h1>
+					<h2 class="mb-4">GGTP QA Training Journey</h2>
+					<p>Perficient Global Graduate Training Program (GGTP) - QA Track, September 2026 Cohort. A 4-week intensive program covering manual testing, test automation, API testing, and performance testing.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center training-card">
+						<h3 class="mb-3" style="color: #ffbd39;">Week 1</h3>
+						<h5>Fundamentals</h5>
+						<p>Git &amp; version control, Python programming, TDD principles, Hospital Management System (CityCare) capstone project with unit testing.</p>
+						<span class="training-tag">Python</span>
+						<span class="training-tag">Git</span>
+						<span class="training-tag">TDD</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center training-card">
+						<h3 class="mb-3" style="color: #ffbd39;">Week 2</h3>
+						<h5>Manual Testing</h5>
+						<p>Test case design techniques (BVA, EP, decision tables, state transition), OrangeHRM functional testing, test planning and documentation.</p>
+						<span class="training-tag">Test Design</span>
+						<span class="training-tag">BVA</span>
+						<span class="training-tag">Documentation</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center training-card">
+						<h3 class="mb-3" style="color: #ffbd39;">Week 3</h3>
+						<h5>Advanced Testing</h5>
+						<p>ShopEasy E-commerce manual testing (64 test cases), Playwright automation framework, Selenium WebDriver introduction, API testing.</p>
+						<span class="training-tag">Playwright</span>
+						<span class="training-tag">Selenium</span>
+						<span class="training-tag">E-commerce</span>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 text-center training-card">
+						<h3 class="mb-3" style="color: #ffbd39;">Week 4</h3>
+						<h5>Capstone &amp; Integration</h5>
+						<p>ShopEasy full automation (Selenium + REST Assured, 153 tests), MS Forms automation framework (Playwright + TypeScript), cross-browser testing.</p>
+						<span class="training-tag">REST Assured</span>
+						<span class="training-tag">TestNG</span>
+						<span class="training-tag">Java</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-center mt-4 mb-3">
+				<div class="col-md-12 ftco-animate">
+					<div class="p-4" style="background: #16213e; border-radius: 12px; border-left: 4px solid #ffbd39;">
+						<h5 style="color: #ffbd39;">Skills &amp; Tools Covered</h5>
+						<div class="row mt-3">
+							<div class="col-md-3">
+								<h6 style="color: #fff;">Manual Testing</h6>
+								<p style="color: #aaa; font-size: 14px;">Test Case Design, BVA, EP, Decision Tables, State Transition, Exploratory Testing, RTM, Defect Lifecycle</p>
+							</div>
+							<div class="col-md-3">
+								<h6 style="color: #fff;">Automation Tools</h6>
+								<p style="color: #aaa; font-size: 14px;">Selenium WebDriver 4, Playwright, REST Assured, TestNG, Maven, Page Object Model</p>
+							</div>
+							<div class="col-md-3">
+								<h6 style="color: #fff;">Languages</h6>
+								<p style="color: #aaa; font-size: 14px;">Java 17, TypeScript, Python 3.10+, SQL</p>
+							</div>
+							<div class="col-md-3">
+								<h6 style="color: #fff;">Practices</h6>
+								<p style="color: #aaa; font-size: 14px;">TDD, CI/CD, Cross-browser Testing, API Testing, Data-driven Testing, Bug Reporting</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>A collection of Data Analytics and QA Engineering projects built during academic studies and the Perficient GGTP training program.</p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/NNDINI7/Power_Bi/tree/main/Sales%20Analysis%20dashboard" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/NNDINI7/Power_Bi/tree/main/Sales%20Analysis%20dashboard">Sales Data Analysis</a></h3>
+                <p>The primary objective of this project was to contribute to business success by utilizing data analysis, visualization, and forecasting techniques. By leveraging Power BI and its advanced functionalities, the project delivers an interactive platform that enables stakeholders to monitor KPIs, identify trends, and forecast sales with accuracy.</p>
+                <span class="project-badge">Power BI</span>
+                <span class="project-badge">Data Visualization</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/NNDINI7/Paper_AI" class="block-20 zoom-effect" style="background-image: url('images/OIP.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/NNDINI7/Paper_AI">PAPER AI using Neo4j and Agentic AI</a></h3>
+                <p>Developed a Paper AI application using Neo4j graph database and Agentic AI framework to analyze and extract insights from research papers. Implemented graph-based data modeling, natural language processing, and knowledge graph techniques to enhance information retrieval and recommendation capabilities.</p>
+                <span class="project-badge">Neo4j</span>
+                <span class="project-badge">Agentic AI</span>
+                <span class="project-badge">NLP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+		<br>
+		<div class="row justify-content-center mb-4 mt-5">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+				<h2 class="mb-4" style="color: #ffbd39;">GGTP QA Capstone Projects</h2>
+				<p>Projects completed during the Perficient Global Graduate Training Program (QA Track).</p>
+			</div>
+		</div>
+
+		<div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%201/Capstone%200%20-%20Git%20and%20Python" class="block-20 zoom-effect" style="background-image: url('images/capstone0.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%201/Capstone%200%20-%20Git%20and%20Python">CityCare Hospital Management System</a></h3>
+						<p>Python terminal application for hospital management with 28 operations covering patient registration, appointments, billing, lab tests, surgeries, and ambulance dispatch. Built with TDD, custom exceptions, and comprehensive unit/integration/acceptance tests.</p>
+						<span class="project-badge">Python</span>
+						<span class="project-badge">Git</span>
+						<span class="project-badge">TDD</span>
+						<span class="project-badge">Week 1</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%202/Capstone%202" class="block-20 zoom-effect" style="background-image: url('images/capstone2.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%202/Capstone%202">OrangeHRM Functional Testing</a></h3>
+						<p>Complete manual functional testing of OrangeHRM application. Includes test plan, test case design with multiple techniques, test execution with evidence, and comprehensive test report with defect documentation.</p>
+						<span class="project-badge">Manual Testing</span>
+						<span class="project-badge">Test Cases</span>
+						<span class="project-badge">Week 2</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%203/Capstone%203" class="block-20 zoom-effect" style="background-image: url('images/capstone3.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%203/Capstone%203">ShopEasy E-commerce Manual Testing</a></h3>
+						<p>Black-box manual functional testing of ShopEasy store with 64 test cases across 6 modules covering 14 business rules. Includes BVA, EP, decision tables, state-transition testing, exploratory testing, and full defect lifecycle management.</p>
+						<span class="project-badge">64 Test Cases</span>
+						<span class="project-badge">6 Modules</span>
+						<span class="project-badge">Week 3</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%203/Capstone%204" class="block-20 zoom-effect" style="background-image: url('images/capstone4.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%203/Capstone%204">Playwright Automation Framework</a></h3>
+						<p>Test automation framework for automationexercise.com using Playwright with TypeScript. Implements Page Object Model design pattern for maintainable and scalable test automation.</p>
+						<span class="project-badge">Playwright</span>
+						<span class="project-badge">TypeScript</span>
+						<span class="project-badge">POM</span>
+						<span class="project-badge">Week 3</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%204/Capstone%205" class="block-20 zoom-effect" style="background-image: url('images/capstone5.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%204/Capstone%205">Customer Satisfaction Survey Automation</a></h3>
+						<p>Automated testing of customer satisfaction survey forms using Playwright and TypeScript. Data-driven test framework with structured test case reporting and execution tracking.</p>
+						<span class="project-badge">Playwright</span>
+						<span class="project-badge">TypeScript</span>
+						<span class="project-badge">Data-driven</span>
+						<span class="project-badge">Week 4</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%204/Capstone%206" class="block-20 zoom-effect" style="background-image: url('images/capstone6.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%204/Capstone%206">ShopEasy UI + API Automation</a></h3>
+						<p>Full-stack test automation with 153 automated test cases across UI (Selenium WebDriver), API (REST Assured), integration and cross-browser layers. Identified 13 seeded defects with 26 evidence tests. Java 17, TestNG, Maven, Page Object Model.</p>
+						<span class="project-badge">Selenium</span>
+						<span class="project-badge">REST Assured</span>
+						<span class="project-badge">153 Tests</span>
+						<span class="project-badge">Week 4</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row d-flex justify-content-center">
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+					<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%204/ms-forms-automation" class="block-20 zoom-effect" style="background-image: url('images/msforms.svg');">
+					</a>
+					<div class="text mt-3 float-right d-block">
+						<h3 class="heading"><a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Projects/Individual/Nandini%20Giri/Week%204/ms-forms-automation">MS Forms Automation Framework</a></h3>
+						<p>Excel-driven Microsoft Forms automation framework using Playwright, TypeScript, and Page Object Model. Reads a 9-sheet workbook to create, configure, and fill forms with constraint validation, branching logic, and multilingual support (English, Hindi, Marathi).</p>
+						<span class="project-badge">Playwright</span>
+						<span class="project-badge">TypeScript</span>
+						<span class="project-badge">Excel-driven</span>
+						<span class="project-badge">Multilingual</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	  </div>
+    </section>
+
+	
+	
+
+
+	<section class="ftco-section" id="selflearn-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Self Learning</h1>
+					<h2 class="mb-4">Self Learning &amp; Practice</h2>
+					<p>Beyond the GGTP curriculum, I actively explored additional tools, frameworks, and testing techniques through hands-on practice and self-driven projects.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 training-card" style="width: 100%;">
+						<h3 class="mb-2" style="color: #ffbd39;">Playwright Self Learning</h3>
+						<h6 style="color: #aaa;">Week 2 &amp; Week 4</h6>
+						<p style="color: #ccc; font-size: 14px; margin-top: 15px;">Practiced Playwright automation beyond capstone requirements — writing tests for various web applications, exploring advanced selectors, assertions, and test configuration.</p>
+						<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Cohort%20Portfolio/Nandini%20Giri/Daily_Activities/Week%204/Playwright%20SelfLearning" target="_blank" style="color: #ffbd39; font-size: 13px;">View on GitHub</a>
+						<div class="mt-3">
+							<span class="training-tag">Playwright</span>
+							<span class="training-tag">TypeScript</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 training-card" style="width: 100%;">
+						<h3 class="mb-2" style="color: #ffbd39;">Selenium Java Practice</h3>
+						<h6 style="color: #aaa;">Week 2 &amp; Domain Skills</h6>
+						<p style="color: #ccc; font-size: 14px; margin-top: 15px;">Self-studied Selenium WebDriver with Java — built practice projects including Maven demos, first automation scripts, and structured test suites to solidify fundamentals before the capstones.</p>
+						<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Domain%20Specific%20Skills/Automation%20Testing/SeleniumTestingLearning" target="_blank" style="color: #ffbd39; font-size: 13px;">View on GitHub</a>
+						<div class="mt-3">
+							<span class="training-tag">Selenium</span>
+							<span class="training-tag">Java</span>
+							<span class="training-tag">Maven</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 training-card" style="width: 100%;">
+						<h3 class="mb-2" style="color: #ffbd39;">PageTurner Bookstore Testing</h3>
+						<h6 style="color: #aaa;">Week 3</h6>
+						<p style="color: #ccc; font-size: 14px; margin-top: 15px;">Built a Playwright automation framework for the PageTurner Bookstore application — implementing Page Object Model, custom fixtures, and organized test suites with HTML reporting.</p>
+						<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Cohort%20Portfolio/Nandini%20Giri/Daily_Activities/Week%203/Pageturner" target="_blank" style="color: #ffbd39; font-size: 13px;">View on GitHub</a>
+						<div class="mt-3">
+							<span class="training-tag">Playwright</span>
+							<span class="training-tag">POM</span>
+							<span class="training-tag">Fixtures</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-4">
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 training-card" style="width: 100%;">
+						<h3 class="mb-2" style="color: #ffbd39;">Python Fundamentals</h3>
+						<h6 style="color: #aaa;">Week 1</h6>
+						<p style="color: #ccc; font-size: 14px; margin-top: 15px;">Practiced Python through daily exercises, Jupyter notebooks, and assessments — covering data structures, control flow, OOP concepts, and scripting fundamentals.</p>
+						<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Cohort%20Portfolio/Nandini%20Giri/Daily_Activities/Week%201" target="_blank" style="color: #ffbd39; font-size: 13px;">View on GitHub</a>
+						<div class="mt-3">
+							<span class="training-tag">Python</span>
+							<span class="training-tag">Jupyter</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 training-card" style="width: 100%;">
+						<h3 class="mb-2" style="color: #ffbd39;">Selenium TypeScript</h3>
+						<h6 style="color: #aaa;">Week 2</h6>
+						<p style="color: #ccc; font-size: 14px; margin-top: 15px;">Explored Selenium with TypeScript — building a calculator automation project and practice scripts to understand cross-language Selenium capabilities.</p>
+						<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Cohort%20Portfolio/Nandini%20Giri/Daily_Activities/Week%202/Selenium" target="_blank" style="color: #ffbd39; font-size: 13px;">View on GitHub</a>
+						<div class="mt-3">
+							<span class="training-tag">Selenium</span>
+							<span class="training-tag">TypeScript</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 d-flex ftco-animate">
+					<div class="align-self-stretch box p-4 training-card" style="width: 100%;">
+						<h3 class="mb-2" style="color: #ffbd39;">Daily Learning Updates</h3>
+						<h6 style="color: #aaa;">Weeks 1-4</h6>
+						<p style="color: #ccc; font-size: 14px; margin-top: 15px;">Maintained daily reflections and learning logs throughout the 4-week GGTP program — documenting key takeaways, challenges faced, and skills gained each day.</p>
+						<a href="https://github.com/Perficient-Corporate/GGTP_NGP_QA_SEP_26/tree/main/Cohort%20Portfolio/Nandini%20Giri/Daily%20Learning%20Update" target="_blank" style="color: #ffbd39; font-size: 13px;">View on GitHub</a>
+						<div class="mt-3">
+							<span class="training-tag">Documentation</span>
+							<span class="training-tag">Reflection</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Nagpur, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+91 8459774962</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:nandini.giri@perficient.com">nandini.giri@perficient.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="Nandini_Giri_AssociateTechnicalConsultant_Sep2026.docx" download>Resume link</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
